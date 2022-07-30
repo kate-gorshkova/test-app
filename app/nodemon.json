@@ -1,0 +1,4 @@
+{
+    "watch": ["scss-build-script.js", "scss/"],
+    "ext": "js, scss"
+  }

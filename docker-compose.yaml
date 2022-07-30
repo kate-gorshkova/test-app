@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+
+  app:
+    image: "${DOCKER__IMAGE_NAME}:${DOCKER__IMAGE_VERSION}"
+    ports:
+      - "8006:80"
