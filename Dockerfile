@@ -12,4 +12,4 @@ RUN npm run build
 FROM nginx:1.22
 
 COPY --from=builder /application/index.html /usr/share/nginx/html
-COPY --from=builder /application/dist /usr/share/nginx/html/static
+COPY --from=builder /application/dist /usr/share/nginx/html/dist
